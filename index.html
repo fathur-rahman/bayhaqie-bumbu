@@ -432,7 +432,7 @@
       
       product.images.forEach((img, index) => {
         const imgEl = document.createElement('img');
-        imgEl.src = `images/${img}`;
+        imgEl.src = `assets/${img}`;
         imgEl.alt = product.name;
         imgEl.className = 'card-image' + (index === 0 ? ' active' : '');
         imgEl.loading = 'lazy';
